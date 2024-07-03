@@ -2,8 +2,5 @@
   command = "npm run build-demo-project-1"
   publish = "dist/demo-project-1"
 
-[[plugins]]
-  package = "@netlify/plugin-angular"
-
 [context.production.environment]
   CI = "true"
