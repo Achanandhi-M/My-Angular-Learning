@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { StaticContentComponent } from './static-content/static-content.component';
 import { QuoteDisplayComponent } from './quote-display/quote-display.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -11,6 +12,7 @@ import { QuoteDisplayComponent } from './quote-display/quote-display.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
   
 }

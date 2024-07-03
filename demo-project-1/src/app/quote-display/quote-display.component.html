@@ -1,6 +1,10 @@
 <div style="text-align:center">
 <h2 style="text-align:center">Quote Display Component  [Second Component]</h2>
-<button  (click)="fetchQuote()">Get Random Quote</button>
+<button mat-raised-button color="primary" (click)="fetchQuote()">Get Random Quote</button>
+<!--<button  (click)="fetchQuote()">Get Random Quote</button>-->
+<br>
+<br>
+
 <div *ngIf="quote">
   <p style>Quote: {{ quote.content }}</p>
   <p style>By: {{ quote.author }}</p>

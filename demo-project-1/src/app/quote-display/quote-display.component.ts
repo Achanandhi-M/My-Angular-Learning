@@ -2,10 +2,11 @@ import { QuoteService } from '../quote.service';
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { MatButtonModule } from '@angular/material/button';
 @Component({
   selector: 'app-quote-display',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,MatButtonModule],
   providers:[HttpClientModule],
   templateUrl: './quote-display.component.html',
   styleUrl: './quote-display.component.css'
