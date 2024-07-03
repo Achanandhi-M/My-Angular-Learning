@@ -1,27 +1,60 @@
-# MyFirstApp
+# My First Angular Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+Welcome to My First Angular Project! This project demonstrates fetching a random quote using Angular and displaying it on a button click.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project uses Angular to fetch a random quote from an external API (https://api.quotable.io/random) and displays it when the "Get Random Quote" button is clicked. The fetched quote includes the content and author.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Fetch a random quote from an external API.
+- Display the fetched quote dynamically on the web page.
 
-## Build
+## Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Before running the project, ensure you have the following installed:
 
-## Running unit tests
+- Node.js and npm (Node Package Manager)
+- Angular CLI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation
 
-## Running end-to-end tests
+1. Clone the repository:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```bash
+   git clone <repository-url>
+   cd my-first-angular-project
+   ```
 
-## Further help
+2. Install dependencies:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   npm install
+   ```
+
+## Running the Application
+
+To run the application locally, use the Angular CLI:
+
+```bash
+ng serve
+```
+
+Navigate to `http://localhost:4200/` in your browser to see the application running.
+
+## Usage
+
+1. Click on the "Get Random Quote" button to fetch and display a new quote.
+2. The quote content and author will be displayed below the button.
+
+## Technologies Used
+
+- Angular
+- TypeScript
+- HTML/CSS
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or a pull request.
+
