@@ -1,7 +1,0 @@
-[build]
-  base = "demo-project-1"
-  command = "npm run build"
-  publish = "dist/my-first-app"
-
-[context.production.environment]
-  CI = "true"
