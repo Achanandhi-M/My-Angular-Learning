@@ -5,7 +5,7 @@
   command = "ng build"
 
   # Directory to publish (relative to root of your repository)
-  publish = "demo-project-1/dist/my-first-app"
+  publish = "dist/my-first-app"
 
 [[redirects]]
   # Redirect all requests to the index.html for Angular routing to work
