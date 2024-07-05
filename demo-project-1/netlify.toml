@@ -2,10 +2,10 @@
   # Directory where the build command will run
   base = "demo-project-1"
   # Command to build your Angular project
-  command = "ng build --prod"
+  command = "ng build"
 
   # Directory to publish (relative to root of your repository)
-  publish = "projects/your-angular-project/dist/your-project-name"
+  publish = "demo-project-1/dist/my-first-app"
 
 [[redirects]]
   # Redirect all requests to the index.html for Angular routing to work
